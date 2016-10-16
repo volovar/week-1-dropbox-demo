@@ -13,6 +13,7 @@ class CreateAccountRootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationController?.setNavigationBarHidden(true, animated: false)
         performSegue(withIdentifier: "firstCreateAccountSegue", sender: nil)
     }
 

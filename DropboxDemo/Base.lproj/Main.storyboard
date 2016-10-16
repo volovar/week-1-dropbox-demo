@@ -101,7 +101,7 @@
             </objects>
             <point key="canvasLocation" x="946.5" y="154.5"/>
         </scene>
-        <!--Create Account Root View Controller-->
+        <!--Welcome-->
         <scene sceneID="kIp-Yr-8Ih">
             <objects>
                 <viewController id="3hy-XS-Q5w" customClass="CreateAccountRootViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -130,13 +130,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Jdy-Im-XcH"/>
+                    <navigationItem key="navigationItem" title="Welcome" id="Jdy-Im-XcH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fho-3y-Ksx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2083.5" y="154.5"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--New Account-->
         <scene sceneID="fHg-EG-qr4">
             <objects>
                 <viewController id="jvX-Ur-N4g" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -165,7 +165,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NMQ-dS-7b0"/>
+                    <navigationItem key="navigationItem" title="New Account" id="NMQ-dS-7b0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBJ-y4-sto" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -290,7 +290,7 @@
         <!--Navigation Controller-->
         <scene sceneID="nYr-Bg-uKT">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Td5-Zv-lwS" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Td5-Zv-lwS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JE3-DB-sHd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -323,7 +323,7 @@
             </objects>
             <point key="canvasLocation" x="1497" y="1002"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--New Account-->
         <scene sceneID="jG5-Yl-PyE">
             <objects>
                 <viewController id="1E1-lT-9g8" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -352,13 +352,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FBI-aU-gEA"/>
+                    <navigationItem key="navigationItem" title="New Account" id="FBI-aU-gEA">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="tnI-Ot-mkb"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRj-za-5M5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3054.5" y="154.5"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--New Account-->
         <scene sceneID="bXK-kW-GDh">
             <objects>
                 <viewController id="V1e-NI-0nk" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -387,13 +389,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XRb-IP-bHV"/>
+                    <navigationItem key="navigationItem" title="New Account" id="XRb-IP-bHV">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="w6h-z5-zmg"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kkU-ls-m7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3489" y="155"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--New Account-->
         <scene sceneID="h2g-TN-4Bg">
             <objects>
                 <viewController id="g5t-1X-POF" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -422,13 +426,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xWU-bv-thY"/>
+                    <navigationItem key="navigationItem" title="New Account" id="xWU-bv-thY">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="je3-6W-XzO"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nhd-5x-FYx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3920" y="155"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--New Account-->
         <scene sceneID="JDm-Jo-agj">
             <objects>
                 <viewController id="VxR-wK-WDN" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -440,59 +446,56 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MRN-tC-wGM" userLabel="Back button">
-                                <frame key="frameInset" minX="10" minY="35" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressBackButton:" destination="VxR-wK-WDN" eventType="touchUpInside" id="Wzp-pJ-gEV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Ay-0e-AR4" userLabel="Input Password button">
                                 <frame key="frameInset" minX="134" minY="251" width="235" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oFu-4f-4rp" userLabel="Create button">
-                                <frame key="frameInset" minX="296" minY="35" width="73" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressCreateButton:" destination="VxR-wK-WDN" eventType="touchUpInside" id="dKt-vG-ueb"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="YpZ-Tw-272"/>
+                    <navigationItem key="navigationItem" title="New Account" id="WFX-uh-wuj">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="wth-E7-1sH"/>
+                        <barButtonItem key="rightBarButtonItem" title="Create" style="plain" id="hwh-Hq-g5g">
+                            <connections>
+                                <action selector="didPressCreateButton:" destination="VxR-wK-WDN" id="EzZ-Sf-oaU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lxf-Fd-K5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4353.5" y="154.5"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--Terms of Service-->
         <scene sceneID="Ygu-dH-MW0">
             <objects>
-                <viewController storyboardIdentifier="termsVC" id="qFv-fW-dH4" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="termsVC" id="qFv-fW-dH4" customClass="TermsViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6oZ-Iy-DJ5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="terms" id="i6g-ub-Vc7">
+                            <webView contentMode="scaleToFill" misplaced="YES" id="0pw-xq-wgx">
                                 <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Rv-3a-bLw">
-                                <frame key="frameInset" minX="313" minY="33" width="56" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressTermsDoneButton:" destination="qFv-fW-dH4" eventType="touchUpInside" id="UTf-ah-TGo"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Terms of Service" id="GYi-Ms-SgU">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="I3N-d2-GCP">
+                            <connections>
+                                <action selector="didPressDone:" destination="qFv-fW-dH4" id="Wpc-Ie-xyv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="0pw-xq-wgx" id="olu-jY-c25"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9BK-Cf-Mot" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4792" y="155"/>
+            <point key="canvasLocation" x="4804.5" y="-610.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6uD-bG-5md">
@@ -514,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TaT-au-XRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6916.5" y="231.5"/>
+            <point key="canvasLocation" x="7503.5" y="231.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JeS-1a-oSs">
@@ -536,7 +539,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EcS-pQ-PdI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7957.5" y="230.5"/>
+            <point key="canvasLocation" x="8544.5" y="230.5"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="wLb-HC-fX1">
@@ -576,7 +579,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="82x-BP-QSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9004.5" y="231.5"/>
+            <point key="canvasLocation" x="9591.5" y="231"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jlq-Us-6Nf">
@@ -598,7 +601,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8SE-3j-Kad" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5770" y="232"/>
+            <point key="canvasLocation" x="6356.5" y="231.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="KdI-ym-VkC">
@@ -638,7 +641,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BcA-BN-9UG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5279.5" y="231.5"/>
+            <point key="canvasLocation" x="5866.5" y="231.5"/>
         </scene>
         <!--Files-->
         <scene sceneID="BGg-SO-Ojq">
@@ -657,7 +660,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wpQ-D5-hOT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6329.5" y="231.5"/>
+            <point key="canvasLocation" x="6916.5" y="231.5"/>
         </scene>
         <!--Photos-->
         <scene sceneID="fuh-64-fge">
@@ -676,7 +679,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nkf-v2-MVW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7370.5" y="230.5"/>
+            <point key="canvasLocation" x="7957.5" y="230.5"/>
         </scene>
         <!--Settings-->
         <scene sceneID="6RD-Hx-E2v">
@@ -695,7 +698,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zIK-lb-Pwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8417.5" y="231.5"/>
+            <point key="canvasLocation" x="9004.5" y="231.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6LF-Vk-Q35">
@@ -912,6 +915,24 @@
             </objects>
             <point key="canvasLocation" x="8418" y="1984"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5TA-a7-oQL">
+            <objects>
+                <navigationController storyboardIdentifier="termsNC" automaticallyAdjustsScrollViewInsets="NO" id="jGF-Wn-mJP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SFC-5U-cMs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qFv-fW-dH4" kind="relationship" relationship="rootViewController" id="SbE-R1-hGG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOh-Le-VJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4354" y="-610"/>
+        </scene>
     </scenes>
     <resources>
         <image name="create1" width="320" height="568"/>
@@ -933,7 +954,6 @@
         <image name="settings_tab" width="30" height="30"/>
         <image name="sign_in1" width="320" height="568"/>
         <image name="sign_in2" width="320" height="568"/>
-        <image name="terms" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
@@ -944,8 +964,8 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="adg-pJ-DoG"/>
+        <segue reference="ihB-oJ-iWp"/>
+        <segue reference="OOM-cf-EMK"/>
         <segue reference="5zv-cc-k00"/>
-        <segue reference="4MQ-qR-maK"/>
     </inferredMetricsTieBreakers>
 </document>

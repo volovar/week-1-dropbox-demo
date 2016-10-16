@@ -13,6 +13,7 @@
 		4C1D21E41DB321260022BADD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21E31DB321260022BADD /* CreateAccountViewController.swift */; };
 		4C1D21E61DB32FB10022BADD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21E51DB32FB10022BADD /* SettingsViewController.swift */; };
 		4C1D21E81DB333260022BADD /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21E71DB333260022BADD /* PhotosViewController.swift */; };
+		4C1D21EA1DB349A10022BADD /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21E91DB349A10022BADD /* TermsViewController.swift */; };
 		4CBC36761DAF709300084A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC36751DAF709300084A51 /* AppDelegate.swift */; };
 		4CBC36781DAF709300084A51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC36771DAF709300084A51 /* ViewController.swift */; };
 		4CBC367B1DAF709300084A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC36791DAF709300084A51 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		4C1D21E31DB321260022BADD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		4C1D21E51DB32FB10022BADD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4C1D21E71DB333260022BADD /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		4C1D21E91DB349A10022BADD /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		4CBC36721DAF709300084A51 /* DropboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBC36751DAF709300084A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CBC36771DAF709300084A51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4C1D21E31DB321260022BADD /* CreateAccountViewController.swift */,
 				4C1D21E51DB32FB10022BADD /* SettingsViewController.swift */,
 				4C1D21E71DB333260022BADD /* PhotosViewController.swift */,
+				4C1D21E91DB349A10022BADD /* TermsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				4C1D21E81DB333260022BADD /* PhotosViewController.swift in Sources */,
 				4C1D21DF1DB319AC0022BADD /* CreateAccountRootViewController.swift in Sources */,
 				4C1D21E61DB32FB10022BADD /* SettingsViewController.swift in Sources */,
+				4C1D21EA1DB349A10022BADD /* TermsViewController.swift in Sources */,
 				4CBC36781DAF709300084A51 /* ViewController.swift in Sources */,
 				4CBC36761DAF709300084A51 /* AppDelegate.swift in Sources */,
 				4C1D21E21DB3203B0022BADD /* SignInViewController.swift in Sources */,

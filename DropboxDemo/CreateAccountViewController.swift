@@ -13,7 +13,7 @@ class CreateAccountViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationController?.setNavigationBarHidden(false, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,8 +44,10 @@ class CreateAccountViewController: UIViewController {
         
         let termsAction = UIAlertAction(title: "View Terms", style: .default, handler: {(action:UIAlertAction) in
             let termsVC = self.storyboard?.instantiateViewController(withIdentifier: "termsVC")
+            let navController = UINavigationController(rootViewController: termsVC!)
             
-            self.present(termsVC!, animated: true, completion: nil)
+            self.present(navController, animated: true, completion: nil)
+//            UINavigationController().pushViewController(termsVC!, animated: true)
         })
         
         createAccountAlert.addAction(termsAction)
