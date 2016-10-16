@@ -1,5 +1,5 @@
 //
-//  SignInViewController.swift
+//  PhotosViewController.swift
 //  DropboxDemo
 //
 //  Created by Michael Volovar on 10/15/16.
@@ -8,12 +8,14 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class PhotosViewController: UIViewController {
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var imageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        scrollView.contentSize = imageView.frame.size
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +23,4 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func didPressBackButton(_ sender: AnyObject) {
-        _ = navigationController?.popToRootViewController(animated: true)
-    }
 }
