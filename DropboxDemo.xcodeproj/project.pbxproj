@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1D21DD1DB319950022BADD /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21DC1DB319950022BADD /* SignInRootViewController.swift */; };
+		4C1D21DF1DB319AC0022BADD /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21DE1DB319AC0022BADD /* CreateAccountRootViewController.swift */; };
+		4C1D21E21DB3203B0022BADD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21E11DB3203B0022BADD /* SignInViewController.swift */; };
+		4C1D21E41DB321260022BADD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D21E31DB321260022BADD /* CreateAccountViewController.swift */; };
 		4CBC36761DAF709300084A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC36751DAF709300084A51 /* AppDelegate.swift */; };
 		4CBC36781DAF709300084A51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC36771DAF709300084A51 /* ViewController.swift */; };
 		4CBC367B1DAF709300084A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC36791DAF709300084A51 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1D21DC1DB319950022BADD /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		4C1D21DE1DB319AC0022BADD /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		4C1D21E11DB3203B0022BADD /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4C1D21E31DB321260022BADD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		4CBC36721DAF709300084A51 /* DropboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBC36751DAF709300084A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CBC36771DAF709300084A51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C1D21E01DB319B10022BADD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D21DE1DB319AC0022BADD /* CreateAccountRootViewController.swift */,
+				4C1D21DC1DB319950022BADD /* SignInRootViewController.swift */,
+				4C1D21E11DB3203B0022BADD /* SignInViewController.swift */,
+				4C1D21E31DB321260022BADD /* CreateAccountViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		4CBC36691DAF709300084A51 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +119,7 @@
 				4CBC36751DAF709300084A51 /* AppDelegate.swift */,
 				4CBC36771DAF709300084A51 /* ViewController.swift */,
 				4CBC36791DAF709300084A51 /* Main.storyboard */,
+				4C1D21E01DB319B10022BADD /* ViewControllers */,
 				4CBC367C1DAF709300084A51 /* Assets.xcassets */,
 				4CBC367E1DAF709300084A51 /* LaunchScreen.storyboard */,
 				4CBC36811DAF709300084A51 /* Info.plist */,
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1D21E41DB321260022BADD /* CreateAccountViewController.swift in Sources */,
+				4C1D21DF1DB319AC0022BADD /* CreateAccountRootViewController.swift in Sources */,
 				4CBC36781DAF709300084A51 /* ViewController.swift in Sources */,
 				4CBC36761DAF709300084A51 /* AppDelegate.swift in Sources */,
+				4C1D21E21DB3203B0022BADD /* SignInViewController.swift in Sources */,
+				4C1D21DD1DB319950022BADD /* SignInRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +527,7 @@
 				4CBC369C1DAF709400084A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CBC369D1DAF709400084A51 /* Build configuration list for PBXNativeTarget "DropboxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +536,7 @@
 				4CBC369F1DAF709400084A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CBC36A01DAF709400084A51 /* Build configuration list for PBXNativeTarget "DropboxDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +545,7 @@
 				4CBC36A21DAF709400084A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
