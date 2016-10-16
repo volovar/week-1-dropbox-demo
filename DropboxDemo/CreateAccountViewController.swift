@@ -28,4 +28,28 @@ class CreateAccountViewController: UIViewController {
     @IBAction func didPressTermsDoneButton(_ sender: AnyObject) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func didPressCreateButton(_ sender: AnyObject) {
+        let createAccountAlert = UIAlertController(title: nil, message: "Before you can complete your registration, you must accept the Dropbox Terms of Service.", preferredStyle: .actionSheet)
+        
+        let agreeAction = UIAlertAction(title: "I Agree", style: .default, handler: {
+            (action:UIAlertAction) in
+            let userVC = self.storyboard?.instantiateViewController(withIdentifier: "userVC")
+            userVC?.modalTransitionStyle = .crossDissolve
+            
+            self.present(userVC!, animated: true, completion: nil)
+        })
+        
+        createAccountAlert.addAction(agreeAction)
+        
+        let termsAction = UIAlertAction(title: "View Terms", style: .default, handler: {(action:UIAlertAction) in
+            let termsVC = self.storyboard?.instantiateViewController(withIdentifier: "termsVC")
+            
+            self.present(termsVC!, animated: true, completion: nil)
+        })
+        
+        createAccountAlert.addAction(termsAction)
+        
+        present(createAccountAlert, animated: true, completion: nil)
+    }
 }
