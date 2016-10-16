@@ -14,6 +14,8 @@ class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        autoAdvance = false
 
         scrollView.contentSize = imageView.frame.size
     }

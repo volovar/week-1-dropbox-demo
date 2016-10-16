@@ -8,12 +8,16 @@
 
 import UIKit
 
+var autoAdvance = true
+
 class SignInRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        performSegue(withIdentifier: "firstSignInSegue", sender: nil)
+        if autoAdvance {
+            performSegue(withIdentifier: "firstSignInSegue", sender: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {

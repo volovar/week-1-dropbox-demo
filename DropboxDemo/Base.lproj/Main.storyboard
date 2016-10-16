@@ -612,6 +612,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="906"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="06C-Dp-bYt" userLabel="Sign Out button">
+                                        <rect key="frame" x="8" y="810" width="359" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="rTf-PR-eKl" kind="modal" modalTransitionStyle="crossDissolve" id="LWd-SQ-bJS"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -820,6 +827,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="906"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="axV-ne-E0d" userLabel="Sign Out button">
+                                        <rect key="frame" x="8" y="810" width="359" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="rTf-PR-eKl" kind="modal" modalTransitionStyle="crossDissolve" id="5zv-cc-k00"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -835,7 +849,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WHf-iV-4gK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9005" y="1983"/>
+            <point key="canvasLocation" x="9004.5" y="1983"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8ut-H4-GQv">
@@ -990,9 +1004,9 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ihB-oJ-iWp"/>
-        <segue reference="7l1-VV-hyn"/>
-        <segue reference="OOM-cf-EMK"/>
+        <segue reference="adg-pJ-DoG"/>
+        <segue reference="5zv-cc-k00"/>
         <segue reference="CDI-N7-2tG"/>
+        <segue reference="4MQ-qR-maK"/>
     </inferredMetricsTieBreakers>
 </document>
