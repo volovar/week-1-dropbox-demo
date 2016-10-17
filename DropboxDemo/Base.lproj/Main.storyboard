@@ -22,7 +22,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.95554345846176147" green="0.9799848198890686" blue="0.99977749586105347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mam-Cb-Bk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -48,6 +48,7 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="welcome1" id="o1z-DQ-bvS">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="0.011764705882352941" green="0.4939645528793335" blue="0.89747482538223267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="myp-iY-d1E" userLabel="Sign In button">
                                 <frame key="frameInset" minX="149" minY="521" width="78" height="30"/>
@@ -56,6 +57,11 @@
                                     <segue destination="rTf-PR-eKl" kind="modal" animates="NO" id="7l1-VV-hyn"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" misplaced="YES" id="AV1-GJ-hjD">
+                                <frame key="frameInset" minX="128" minY="584" width="128" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9555434585" green="0.97998481989999997" blue="0.99977749589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -76,6 +82,11 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" id="CaR-9w-Fat">
+                                <frame key="frameInset" minX="125" minY="585" width="128" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9555434585" green="0.97998481989999997" blue="0.99977749589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -96,6 +107,11 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" id="vnm-t1-W4b">
+                                <frame key="frameInset" minX="125" minY="600" width="128" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9555434585" green="0.97998481989999997" blue="0.99977749589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eVW-Jr-iMT" userLabel="sign up button">
                                 <frame key="frameInset" minX="36" minY="449" width="305" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -982,7 +998,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="ihB-oJ-iWp"/>
+        <segue reference="Reg-Gq-SI5"/>
         <segue reference="OOM-cf-EMK"/>
-        <segue reference="7l1-VV-hyn"/>
     </inferredMetricsTieBreakers>
 </document>

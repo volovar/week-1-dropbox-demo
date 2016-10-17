@@ -15,7 +15,7 @@ class WelcomePageViewController: UIPageViewController {
         super.viewDidLoad()
         
         dataSource = self
-
+        
         let page1: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "page1")
         let page2: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "page2")
         let page3: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "page3")
@@ -60,4 +60,5 @@ extension WelcomePageViewController: UIPageViewControllerDataSource {
     func presentationIndex(for pageViewController: UIPageViewController) -> Int {
         return 0
     }
+    
 }
