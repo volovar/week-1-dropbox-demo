@@ -2,7 +2,7 @@
 
 The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
-Time spent: `8 hours`
+Time spent: `8.2 hours`
 
 ### Features
 
@@ -26,7 +26,7 @@ Time spent: `8 hours`
 - [X] User sees updated page indicator dots using page control.
 - [X] User can view actual Dropbox Terms of Service in a web view.
 - [X] User is presented with native action sheet to view and agree with terms of service.
-- [ ] User sees updated password strength as they type in password field.
+- [X] User sees updated password strength as they type in password field.
 
 #### The following **additional** features are implemented:
 
