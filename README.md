@@ -2,7 +2,7 @@
 
 The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
-Time spent: `8.2 hours`
+Time spent: `8.3 hours`
 
 ### Features
 
@@ -36,18 +36,16 @@ Time spent: `8.2 hours`
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. Implementation of the details fav button, more specifically about adding custom navigation items and they're states in Swift.
-2. 
+2. How everyone else went about implementing the welcome screen scrolling. I used a page view controller instead of a scroll view and I'd like to see some of the other approaches.
 
 ### Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://github.com/volovar/week-1-dropbox-demo/blob/master/demo/dropbox-demo.gif" target="_blank"><img src='/demo/dropbox-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 One of the main hurdles to overcome was learning Apple's syntax and where method names are located in the documentation. This led to figuring out Apple's style of documentation, which sometimes assumes you already know what you're looking for. Learned a lot about Swift, but will have to dive into the docs for that as well.
-
-* Any libraries or borrowed content.
