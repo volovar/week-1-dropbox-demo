@@ -9,16 +9,16 @@
 import UIKit
 
 class CreateAccountViewController: UIViewController {
+    @IBOutlet weak var textField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        navigationController?.setNavigationBarHidden(false, animated: false)
+        
+        textField.becomeFirstResponder()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
     @IBAction func didPressBackButton(_ sender: AnyObject) {
@@ -27,6 +27,10 @@ class CreateAccountViewController: UIViewController {
     
     @IBAction func didPressTermsDoneButton(_ sender: AnyObject) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func didTap(_ sender: AnyObject) {
+        view.endEditing(true)
     }
     
     @IBAction func didPressCreateButton(_ sender: AnyObject) {
@@ -47,7 +51,6 @@ class CreateAccountViewController: UIViewController {
             let navController = UINavigationController(rootViewController: termsVC!)
             
             self.present(navController, animated: true, completion: nil)
-//            UINavigationController().pushViewController(termsVC!, animated: true)
         })
         
         createAccountAlert.addAction(termsAction)

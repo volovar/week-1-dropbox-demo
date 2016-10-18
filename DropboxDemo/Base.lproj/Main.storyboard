@@ -181,6 +181,11 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" id="lA9-RV-b1b">
+                                <frame key="frameInset" minY="344" width="375" height="323"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94184619188308716" green="0.95277887582778931" blue="0.95902973413467407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PSk-Q0-j82" userLabel="Back button">
                                 <frame key="frameInset" minX="10" minY="35" width="112" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -188,23 +193,95 @@
                                     <action selector="didPressBackButton:" destination="jvX-Ur-N4g" eventType="touchUpInside" id="eR7-Tv-ztX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lel-ba-3Os" userLabel="Input Text button">
-                                <frame key="frameInset" minX="136" minY="103" width="229" height="189"/>
+                            <view contentMode="scaleToFill" misplaced="YES" id="OzD-Xk-MaH">
+                                <frame key="frameInset" minX="125" minY="101" width="240" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="1E1-lT-9g8" kind="push" animates="NO" id="O2F-Z3-6Pf"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="John" textAlignment="natural" minimumFontSize="17" id="QLF-uH-zNq">
+                                        <frame key="frameInset" minX="12" minY="3" width="230" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="OhV-QK-tkD">
+                                <frame key="frameInset" minX="125" minY="152" width="240" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Appleseed" textAlignment="natural" minimumFontSize="17" id="E1t-rW-ffP">
+                                        <frame key="frameInset" minX="13" minY="4" width="230" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="QUw-0g-Zlg">
+                                <frame key="frameInset" minX="125" minY="203" width="240" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" id="4OH-Jb-FCD">
+                                        <frame key="frameInset" minX="13" minY="4" width="230" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="Mao-en-wg1">
+                                <frame key="frameInset" minX="125" minY="255" width="240" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Required" textAlignment="natural" minimumFontSize="17" id="hT2-Wr-Y43">
+                                        <frame key="frameInset" minX="13" minY="4" width="230" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="7Vc-ec-hWM">
+                                <frame key="frameInset" minY="13" width="375" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94184619189999996" green="0.95277887579999998" blue="0.95902973410000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="J9x-Us-t73" appends="YES" id="weN-iI-i49"/>
+                        </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="New Account" id="NMQ-dS-7b0"/>
+                    <navigationItem key="navigationItem" title="New Account" id="NMQ-dS-7b0">
+                        <barButtonItem key="rightBarButtonItem" title="Create" id="xnd-OQ-kzZ">
+                            <connections>
+                                <action selector="didPressCreateButton:" destination="jvX-Ur-N4g" id="0L1-im-133"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="QLF-uH-zNq" id="dgc-v0-Pdl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBJ-y4-sto" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="J9x-Us-t73">
+                    <connections>
+                        <action selector="didTap:" destination="jvX-Ur-N4g" id="sQ0-HT-KQP"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2613.5" y="154.5"/>
         </scene>
-        <!--Sign In Root View Controller-->
+        <!--Welcome-->
         <scene sceneID="D5w-rv-gnI">
             <objects>
                 <viewController id="Kec-ea-1WA" customClass="SignInRootViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -233,13 +310,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fED-j5-VgR"/>
+                    <navigationItem key="navigationItem" title="Welcome" id="fED-j5-VgR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0LI-1n-9iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2083.5" y="1001.5"/>
         </scene>
-        <!--Sign In View Controller-->
+        <!--Dropbox-->
         <scene sceneID="x7C-js-xrx">
             <objects>
                 <viewController id="OLa-sp-cPH" customClass="SignInViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -251,18 +328,49 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" id="qrL-pJ-cQD">
+                                <frame key="frameInset" minX="-1" minY="345" width="375" height="323"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94184619189999996" green="0.95277887579999998" blue="0.95902973410000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="au5-Ok-F1B">
+                                <frame key="frameInset" minX="-1" minY="14" width="375" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94184619189999996" green="0.95277887579999998" blue="0.95902973410000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="OAw-6a-glB">
+                                <frame key="frameInset" minX="125" minY="125" width="240" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" id="c4d-OU-bcs">
+                                        <frame key="frameInset" minX="12" minY="3" width="230" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="O1J-b2-kYq">
+                                <frame key="frameInset" minX="125" minY="176" width="240" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Required" textAlignment="natural" minimumFontSize="17" id="pc3-ev-vg6">
+                                        <frame key="frameInset" minX="12" minY="3" width="230" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ccu-UE-imr" userLabel="Back button">
                                 <frame key="frameInset" minX="9" minY="36" width="112" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="didPressBackButton:" destination="OLa-sp-cPH" eventType="touchUpInside" id="8mt-F2-Vdx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g7p-qh-yo8" userLabel="Input Text button">
-                                <frame key="frameInset" minX="137" minY="128" width="222" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="1zJ-La-jq1" kind="push" animates="NO" id="Itk-Pv-htZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qJ4-yK-rwy" userLabel="Having Trouble button">
@@ -275,50 +383,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4X8-Jd-rAn"/>
+                    <navigationItem key="navigationItem" title="Dropbox" id="4X8-Jd-rAn">
+                        <barButtonItem key="rightBarButtonItem" title="Sign In" id="rur-Wh-jP2">
+                            <connections>
+                                <segue destination="cQx-aA-k4r" kind="modal" modalTransitionStyle="crossDissolve" id="tv9-mv-4Li"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="c4d-OU-bcs" id="L4O-PY-l5C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wFN-QC-dib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2613.5" y="1001.5"/>
-        </scene>
-        <!--Sign In View Controller-->
-        <scene sceneID="vaA-N0-Wo1">
-            <objects>
-                <viewController id="1zJ-La-jq1" customClass="SignInViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dRw-ZB-tke">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="sign_in2" id="vIk-RC-xxl">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VB0-GV-PEN" userLabel="Having Trouble button">
-                                <frame key="frameInset" minX="86" minY="234" width="208" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="z0G-Bw-l96" userLabel="Back button">
-                                <frame key="frameInset" minX="9" minY="36" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressBackButton:" destination="OLa-sp-cPH" eventType="touchUpInside" id="baf-Id-4ye"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iRM-11-FOA" userLabel="Sign In button">
-                                <frame key="frameInset" minX="300" minY="36" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="cQx-aA-k4r" kind="modal" modalTransitionStyle="crossDissolve" id="3y1-xa-iOF"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="FS7-bw-ZYK"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S0S-KG-anD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3062.5" y="1001.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nYr-Bg-uKT">
@@ -341,7 +419,7 @@
         <!--Navigation Controller-->
         <scene sceneID="kgN-LY-LWI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="rTf-PR-eKl" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rTf-PR-eKl" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tya-Fe-sSf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1015,7 +1093,6 @@
         <image name="settings" width="320" height="772"/>
         <image name="settings_tab" width="30" height="30"/>
         <image name="sign_in1" width="320" height="568"/>
-        <image name="sign_in2" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
@@ -1026,8 +1103,8 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ihB-oJ-iWp"/>
+        <segue reference="adg-pJ-DoG"/>
         <segue reference="Reg-Gq-SI5"/>
-        <segue reference="OOM-cf-EMK"/>
+        <segue reference="4MQ-qR-maK"/>
     </inferredMetricsTieBreakers>
 </document>
