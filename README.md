@@ -2,7 +2,7 @@
 
 The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
-Time spent: `6 hours`
+Time spent: `7 hours`
 
 ### Features
 
@@ -20,7 +20,7 @@ Time spent: `6 hours`
 
 #### Optional
 
-- [ ] User can view a detail view for one of the files and favorite the file.
+- [X] User can view a detail view for one of the files and favorite the file.
 - [ ] User can actually type in the forms and tap to dismiss the keyboard.
 - [X] User can swipe through the welcome screens instead of just tapping them.
 - [X] User sees updated page indicator dots using page control.
@@ -34,7 +34,7 @@ Time spent: `6 hours`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
+1. Implementation of the details fav button, more specifically about adding custom navigation items and they're states in Swift.
 2. 
 
 ### Video Walkthrough 
