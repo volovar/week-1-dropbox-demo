@@ -27,7 +27,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mam-Cb-Bk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-72.5" y="-642.5"/>
+            <point key="canvasLocation" x="1668" y="-610"/>
         </scene>
         <!--Welcome Page View Controller-->
         <scene sceneID="ddv-MV-ZjU">
@@ -35,7 +35,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="kkY-oF-YFC" customClass="WelcomePageViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dr4-ZT-LLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="512" y="-643"/>
+            <point key="canvasLocation" x="2252" y="-611"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -68,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="85.5" y="154.5"/>
+            <point key="canvasLocation" x="1826" y="188"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CeQ-Ri-Rcp">
@@ -93,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Oe-9F-h3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="512" y="155"/>
+            <point key="canvasLocation" x="2252" y="188"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kzE-8o-xn3">
@@ -132,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blG-bQ-4ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="946.5" y="154.5"/>
+            <point key="canvasLocation" x="2687" y="188"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="kIp-Yr-8Ih">
@@ -167,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fho-3y-Ksx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2083.5" y="154.5"/>
+            <point key="canvasLocation" x="3824" y="188"/>
         </scene>
         <!--New Account-->
         <scene sceneID="fHg-EG-qr4">
@@ -245,6 +245,9 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                                        <connections>
+                                            <action selector="editingChanged:" destination="jvX-Ur-N4g" eventType="editingChanged" id="6dv-YR-aup"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -254,6 +257,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94184619189999996" green="0.95277887579999998" blue="0.95902973410000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="Ize-Oy-ZhR">
+                                <frame key="frameInset" minY="295" width="375" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -269,6 +276,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="imageView" destination="Ize-Oy-ZhR" id="nJ6-ca-qfv"/>
+                        <outlet property="passwordField" destination="hT2-Wr-Y43" id="edl-Rm-lYM"/>
                         <outlet property="textField" destination="QLF-uH-zNq" id="dgc-v0-Pdl"/>
                     </connections>
                 </viewController>
@@ -279,7 +288,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2613.5" y="154.5"/>
+            <point key="canvasLocation" x="4354" y="188"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="D5w-rv-gnI">
@@ -314,7 +323,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0LI-1n-9iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2083.5" y="1001.5"/>
+            <point key="canvasLocation" x="3824" y="1035"/>
         </scene>
         <!--Dropbox-->
         <scene sceneID="x7C-js-xrx">
@@ -405,7 +414,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2613.5" y="1001.5"/>
+            <point key="canvasLocation" x="4354" y="1035"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nYr-Bg-uKT">
@@ -423,7 +432,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYB-K2-4ey" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1496.5" y="154.5"/>
+            <point key="canvasLocation" x="3237" y="188"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kgN-LY-LWI">
@@ -441,150 +450,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzm-uK-ZZ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1497" y="1002"/>
-        </scene>
-        <!--New Account-->
-        <scene sceneID="jG5-Yl-PyE">
-            <objects>
-                <viewController id="1E1-lT-9g8" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fnG-no-nBw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="create1" id="CVQ-Gz-qHE">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iL4-m7-sXb" userLabel="Back button">
-                                <frame key="frameInset" minX="10" minY="35" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressBackButton:" destination="1E1-lT-9g8" eventType="touchUpInside" id="RSI-d7-Wht"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ghb-D8-5wa" userLabel="Input Password button">
-                                <frame key="frameInset" minX="134" minY="251" width="235" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="V1e-NI-0nk" kind="push" animates="NO" id="yx1-h5-hMT"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="New Account" id="FBI-aU-gEA">
-                        <barButtonItem key="backBarButtonItem" title="Welcome" id="tnI-Ot-mkb"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZRj-za-5M5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3054.5" y="154.5"/>
-        </scene>
-        <!--New Account-->
-        <scene sceneID="bXK-kW-GDh">
-            <objects>
-                <viewController id="V1e-NI-0nk" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FDp-SD-GTF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="create2" id="O0k-hq-oR2">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5i4-jt-1c2" userLabel="Back button">
-                                <frame key="frameInset" minX="10" minY="35" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressBackButton:" destination="V1e-NI-0nk" eventType="touchUpInside" id="0vF-ds-rRH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Yj-gm-gjy" userLabel="Input Password button">
-                                <frame key="frameInset" minX="134" minY="251" width="235" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="g5t-1X-POF" kind="push" animates="NO" id="8hL-Xm-hSW"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="New Account" id="XRb-IP-bHV">
-                        <barButtonItem key="backBarButtonItem" title="Welcome" id="w6h-z5-zmg"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kkU-ls-m7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3489" y="155"/>
-        </scene>
-        <!--New Account-->
-        <scene sceneID="h2g-TN-4Bg">
-            <objects>
-                <viewController id="g5t-1X-POF" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MAK-4v-8qv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="create3" id="Npt-m8-blj">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wBs-Kg-OR5" userLabel="Back button">
-                                <frame key="frameInset" minX="10" minY="35" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressBackButton:" destination="g5t-1X-POF" eventType="touchUpInside" id="41n-Pi-sWT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ha4-Xs-Omg" userLabel="Input Password button">
-                                <frame key="frameInset" minX="134" minY="251" width="235" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="VxR-wK-WDN" kind="push" animates="NO" id="tmi-6q-6jX"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="New Account" id="xWU-bv-thY">
-                        <barButtonItem key="backBarButtonItem" title="Welcome" id="je3-6W-XzO"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nhd-5x-FYx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3920" y="155"/>
-        </scene>
-        <!--New Account-->
-        <scene sceneID="JDm-Jo-agj">
-            <objects>
-                <viewController id="VxR-wK-WDN" customClass="CreateAccountViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HR4-dE-Twp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="create4" id="BAb-85-ggf">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Ay-0e-AR4" userLabel="Input Password button">
-                                <frame key="frameInset" minX="134" minY="251" width="235" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="New Account" id="WFX-uh-wuj">
-                        <barButtonItem key="backBarButtonItem" title="Welcome" id="wth-E7-1sH"/>
-                        <barButtonItem key="rightBarButtonItem" title="Create" style="plain" id="hwh-Hq-g5g">
-                            <connections>
-                                <action selector="didPressCreateButton:" destination="VxR-wK-WDN" id="EzZ-Sf-oaU"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lxf-Fd-K5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4353.5" y="154.5"/>
+            <point key="canvasLocation" x="3237" y="1035"/>
         </scene>
         <!--Terms of Service-->
         <scene sceneID="Ygu-dH-MW0">
@@ -1084,10 +950,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="create1" width="320" height="568"/>
-        <image name="create2" width="320" height="568"/>
-        <image name="create3" width="320" height="568"/>
-        <image name="create4" width="320" height="568"/>
         <image name="create_account" width="320" height="568"/>
         <image name="empty_favorites" width="320" height="454"/>
         <image name="empty_files" width="320" height="454"/>
@@ -1112,8 +974,8 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="adg-pJ-DoG"/>
-        <segue reference="Reg-Gq-SI5"/>
         <segue reference="4MQ-qR-maK"/>
+        <segue reference="Reg-Gq-SI5"/>
+        <segue reference="adg-pJ-DoG"/>
     </inferredMetricsTieBreakers>
 </document>

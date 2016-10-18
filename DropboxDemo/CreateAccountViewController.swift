@@ -9,7 +9,14 @@
 import UIKit
 
 class CreateAccountViewController: UIViewController {
+    let weakImage = UIImage(named: "signup_1")
+    let soSoImage = UIImage(named: "signup_2")
+    let goodImage = UIImage(named: "signup_3")
+    let greatImage = UIImage(named: "signup_4")
+    
     @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var passwordField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +38,20 @@ class CreateAccountViewController: UIViewController {
     
     @IBAction func didTap(_ sender: AnyObject) {
         view.endEditing(true)
+    }
+    
+    @IBAction func editingChanged(_ sender: AnyObject) {
+        let characterCount = passwordField.text?.characters.count
+        
+        if characterCount! < 4 {
+            imageView.image = weakImage
+        } else if characterCount! < 6 {
+            imageView.image = soSoImage
+        } else if characterCount! < 8 {
+            imageView.image = goodImage
+        } else {
+            imageView.image = greatImage
+        }
     }
     
     @IBAction func didPressCreateButton(_ sender: AnyObject) {
