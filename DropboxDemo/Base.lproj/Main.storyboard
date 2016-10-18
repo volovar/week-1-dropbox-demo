@@ -772,6 +772,13 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="backgroundColor" red="0.94184619189999996" green="0.95277887579999998" blue="0.95902973410000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zXK-nI-O1z" userLabel="Detail View button">
+                                        <rect key="frame" x="126" y="65" width="123" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="e2n-AV-F90" kind="push" id="SM3-Jn-E4O"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -787,7 +794,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3db-E2-HJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7958" y="2130"/>
+            <point key="canvasLocation" x="7957.5" y="2130"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="YwW-GQ-tub">
+            <objects>
+                <viewController id="e2n-AV-F90" customClass="DetailsViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3hq-fk-XdT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="empty_files" id="8HA-Dh-O7O">
+                                <frame key="frameInset" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1XS-sg-PlU"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tdi-f4-5ks" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7958" y="3088"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="KxB-JN-ANu">
