@@ -327,6 +327,10 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="sign_in1" id="mPX-0A-Rdp">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fzi-LV-Chv" appends="YES" id="OvY-XN-RdV"/>
+                                </connections>
                             </imageView>
                             <view contentMode="scaleToFill" misplaced="YES" id="qrL-pJ-cQD">
                                 <frame key="frameInset" minX="-1" minY="345" width="375" height="323"/>
@@ -395,6 +399,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wFN-QC-dib" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fzi-LV-Chv">
+                    <connections>
+                        <action selector="didTap:" destination="OLa-sp-cPH" id="DJK-qi-aWu"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2613.5" y="1001.5"/>
         </scene>

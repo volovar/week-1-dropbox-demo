@@ -25,6 +25,10 @@ class SignInViewController: UIViewController {
         _ = navigationController?.popToRootViewController(animated: true)
     }
     
+    @IBAction func didTap(_ sender: AnyObject) {
+        view.endEditing(true)
+    }
+    
     @IBAction func didPressSignInTroubleButton(_ sender: AnyObject) {
         let signInTroubleAlert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
